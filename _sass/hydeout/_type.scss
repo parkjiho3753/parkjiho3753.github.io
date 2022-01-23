@@ -82,8 +82,9 @@ abbr {
 }
 
 blockquote {
-  border-left: 0.25rem solid $border-color;
-  color: #7a7a7a;
+  background-color: #f7f7f7;
+  border-left: 0.25rem solid #135079c2;
+  color: #333333; // 글자 색.
   margin: 0.8rem 0;
   padding: 0.5rem 1rem;
 

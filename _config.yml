@@ -3,9 +3,9 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            ParkJiho3753
-tagline:          'A Jekyll theme'
-description:      'The <a href="http://hyde.getpoole.com" target="_blank">Hyde</a> theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>, refreshed.'
+title:            'Devlog of Jiho Park'
+# tagline:          '블로그 태그'
+description:      ''
 url:              'https://parkjiho3753.github.io/'
 baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
@@ -16,7 +16,7 @@ baseurl:          ''
 
 author:
   name:           'Jiho Park'
-  url:            https://twitter.com/fongandrewc
+  url:            'https://parkjiho3753.github.io/'
 
 paginate:         5
 # paginate_path:    '/page:num'
@@ -26,6 +26,8 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+
+jekyll-toc: true
 
 # Sidebar link settings
 sidebar_home_link:  true

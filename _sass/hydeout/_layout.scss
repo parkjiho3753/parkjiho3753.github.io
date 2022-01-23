@@ -25,11 +25,12 @@
 body {
   background-attachment: fixed;
   background-color: $sidebar-bg-color;
-  background-image: linear-gradient(to bottom, lighten($sidebar-bg-color, 7%), darken($sidebar-bg-color, 7%));
+  // background-image: linear-gradient(to bottom, lighten($sidebar-bg-color, 7%), darken($sidebar-bg-color, 7%));    // 그라데이션 제거.
   color: $sidebar-text-color;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: 'Noto Sans KR', 'Noto Sans', sans-serif, 'Abril Fatface', serif;
 }
 
 #sidebar {
@@ -37,7 +38,7 @@ body {
   padding: $section-spacing;
 
   .site-title {
-    font-family: 'Abril Fatface', serif;
+    font-family: 'Noto Sans KR', 'Noto Sans', sans-serif, 'Abril Fatface', serif;
     font-size: $large-font-size;
     font-weight: normal;
     margin-bottom: $heading-spacing;
@@ -106,11 +107,11 @@ body {
 .home #sidebar {
 
   // Center sidebar content
-  text-align: center;
+  text-align: left;
 
   // Bigger title
   .site-title {
-    font-size: 3.25rem;
+    font-size: 1.50rem;
   }
 
   // Show secondary nav content + lead
@@ -181,7 +182,7 @@ body {
     }
 
     .site-title {
-      font-size: 3.25rem;
+      font-size: 1.5rem;
       .back-arrow { display: none; }
     }
 
