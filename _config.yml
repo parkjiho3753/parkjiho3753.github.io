@@ -29,8 +29,15 @@ plugins:
 
 jekyll-toc: true
 
-comments: true
-disqus.shortname: 'parkjiho3753-github-io'
+# Analytics
+analytics:
+  provider               : "google-gtag" 
+                          # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-585YCFPN3Q"
+    anonymize_ip         : # true, false (default)
+
+
 
 # Sidebar link settings
 sidebar_home_link:  true
