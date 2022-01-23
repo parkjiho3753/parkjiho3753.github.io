@@ -16,7 +16,7 @@ baseurl:          ''
 
 author:
   name:           'Jiho Park'
-  url:            'https://parkjiho3753.github.io/'
+  url:            'https://parkjiho3753.github.io'
 
 paginate:         5
 # paginate_path:    '/page:num'
