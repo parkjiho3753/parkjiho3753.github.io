@@ -94,7 +94,7 @@ button.disqus-load {
 
 
 
-
+// 움직이는 우측 목차.
 
 .toc {
   position: absolute;
@@ -129,7 +129,7 @@ button.disqus-load {
     font-weight: bold; 
     transition: all 0.125s ease-in 0s; 
     font-size: 0.75rem;
-    color: #9075aa;
+    color: #2c428b;
   }
 
   ul {
@@ -142,11 +142,11 @@ button.disqus-load {
   }
 
   a {
-      color: $default;
+      color: #111111;
       text-decoration: none;
   }
  
   a:hover {
-     color:$theme-color;
+     color:#1e41b6;
   }
 }
