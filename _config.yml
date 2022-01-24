@@ -6,7 +6,7 @@ highlighter:      rouge
 title:            'Devlog of Jiho Park'
 # tagline:          '블로그 태그'
 description:      ''
-url:              'https://parkjiho3753.github.io/'
+url:              'https://parkjiho3753.github.io'
 baseurl:          ''
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
