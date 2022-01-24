@@ -29,7 +29,7 @@ plugins:
 
 jekyll-toc: true
 
-# # Analytics
+# # Analytics    # head.html에 대체 코드를 넣었음.
 # analytics:
 #   provider               : 'google-gtag'
 #                           # false (default), "google", "google-universal", "google-gtag", "custom"
